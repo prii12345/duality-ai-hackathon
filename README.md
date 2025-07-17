@@ -31,6 +31,51 @@ Space stations pose tough visual environments with low lighting, occlusions, and
 
 A safety-check assistant that uses the trained model to verify presence of essential tools before astronaut EVAs (spacewalks).
 
+##  Folder Structure
+HackByte_Dataset/
+├── data/
+│ ├── train/
+│ ├── val/
+│ └── test/
+├── ENV_SETUP/
+│ └── install_packages.bat
+├── train.py
+├── predict.py
+├── visualize.py
+├── yolo_params.yaml
+├── classes.txt
+└── runs/
+└── detect/
+└── train/
+├── labels.jpg
+├── confusion_matrix.png
+└── weights/
+
+---
+
+##  Model Performance
+
+| Metric            | Value  |
+|-------------------|--------|
+| mAP@0.5           | 91.4%  |
+| mAP@0.5:0.95      | 79.8%  |
+| Precision         | 96.0%  |
+| Recall            | 85.1%  |
+
+---
+
+## Submission Info
+
+- 🔗 GitHub Repo: [GitHub Link Here](https://github.com/yourusername/your-repo)
+- 📦 ZIP Download: [Click here to download ZIP](https://github.com/yourusername/your-repo/archive/refs/heads/main.zip)
+- 📄 Report: Included inside `HackByte_Dataset/Report.pdf`
+  
+
+
+## Notes
+
+- Model was trained using CPU and official Falcon-provided training scripts.
+- All setup followed the official instructions from Algoverse Hackathon PDF.
 
 
 ## Continuous Learning with Falcon
