@@ -66,9 +66,9 @@ HackByte_Dataset/
 
 ## Submission Info
 
-- 🔗 GitHub Repo: https://github.com/prii12345/duality-ai-hackathon.git)
-- 📦 ZIP Download: [Click here to download ZIP](https://github.com/yourusername/your-repo/archive/refs/heads/main.zip)
-- 📄 Report: Included inside `HackByte_Dataset/Report.pdf`
+-  GitHub Repo: [click here to open Github repo](https://github.com/prii12345/duality-ai-hackathon.git)
+-  ZIP Download: [Download ZIP](https://github.com/prii12345/duality-ai-hackathon/archive/refs/heads/main.zip)
+  
   
 
 
