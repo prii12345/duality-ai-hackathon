@@ -32,34 +32,37 @@ objective
 A safety-check assistant that uses the trained model to verify presence of essential tools.
 EVA Guardian uses real-time object detection to verify the presence of critical tools (like fire extinguishers or oxygen tanks) before astronauts exit the station. It provides visual confirmation and alerts if any item is missing.
 
-##  Folder Structure (could not upload one folder because of size issues)
+
+### Folder Structure 
+
+
 main/
-├── Final_packaged_model_folder
-             |__best.pt
-             |__classes.txt
-             |__confusion matrix.jpg
-             |__install_packages
-             |__predict.py
-             |__result.jpg
-             |__train
-             |__using_anaconda_to_train
-             |__visualize.py
-             |__yolo_params.yaml
-|__space_station_flask_app.zip
-        |__static
-             |__uploads 
-                   |__images
-        |__template
-             |__index
-             |__result
-        |__yolov8
-             |__best.pt
-        |__app
-        |__requirements 
-|__space_station_app_use_case
-        |__app_report
-        |__app_video_demo
-|__EVA Guardian ppt.pdf
+├── Final_packaged_model_folder/
+│   ├── best.pt
+│   ├── classes.txt
+│   ├── confusion matrix.jpg
+│   ├── install_packages/
+│   ├── predict.py
+│   ├── result.jpg
+│   ├── train/
+│   ├── using_anaconda_to_train/
+│   ├── visualize.py
+│   └── yolo_params.yaml
+├── space_station_flask_app.zip
+├── static/
+│   └── uploads/
+│       └── images/
+├── template/
+│   ├── index
+│   └── result
+├── yolov8/
+│   └── best.pt
+├── app/
+├── requirements/
+├── space_station_app_use_case/
+│   ├── app_report
+│   └── app_video_demo
+└── EVA Guardian ppt.pdf
 
 
 
