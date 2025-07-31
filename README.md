@@ -56,7 +56,9 @@ main/
              |__best.pt
         |__app
         |__requirements 
-|__
+|__space_station_app_use_case
+        |__app_report
+        |__app_video_demo
 |__EVA Guardian ppt.pdf
 
 
