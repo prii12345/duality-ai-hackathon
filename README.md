@@ -35,7 +35,7 @@ EVA Guardian uses real-time object detection to verify the presence of critical 
 
 ### Folder Structure 
 
-
+'''
 main/
 ├── Final_packaged_model_folder/
 │   ├── best.pt
@@ -63,7 +63,7 @@ main/
 │   ├── app_report
 │   └── app_video_demo
 └── EVA Guardian ppt.pdf
-
+'''
 
 
 ##  Model Performance
