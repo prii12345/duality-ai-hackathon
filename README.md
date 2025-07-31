@@ -105,11 +105,11 @@ New synthetic data can be generated via Falcon → fine-tune model → re-deploy
 
 Team Name:Innovators
 
-Priyanka Yadav : priyanka941677@gmail.com
+-Priyanka Yadav : priyanka941677@gmail.com
 ( ai engineering, documentation & presentation)
-kirti gupta : mail.kirtigupta12@gmail.com
+-kirti gupta : mail.kirtigupta12@gmail.com
 (bonus use case proposal)
-Darshita:darshita2591@gmail.com
+-Darshita:darshita2591@gmail.com
 ( documentation)
 Institute:ipcw
 
