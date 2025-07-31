@@ -35,35 +35,40 @@ EVA Guardian uses real-time object detection to verify the presence of critical 
 
 ### Folder Structure 
 
-'''
-main/
-├── Final_packaged_model_folder/
-│   ├── best.pt
-│   ├── classes.txt
-│   ├── confusion matrix.jpg
-│   ├── install_packages/
-│   ├── predict.py
-│   ├── result.jpg
-│   ├── train/
-│   ├── using_anaconda_to_train/
-│   ├── visualize.py
-│   └── yolo_params.yaml
-├── space_station_flask_app.zip
-├── static/
-│   └── uploads/
-│       └── images/
-├── template/
-│   ├── index
-│   └── result
-├── yolov8/
+```
+EVA_Guardian/
+│
+├── Final_package_model/
 │   └── best.pt
-├── app/
-├── requirements/
-├── space_station_app_use_case/
-│   ├── app_report
-│   └── app_video_demo
-└── EVA Guardian ppt.pdf
-'''
+│
+├── install_packages/
+│   └── requirements.txt
+│
+├── main/
+│   ├── practice-yolo/
+│   │   └── space_station_task/
+│   │       ├── app.py
+│   │       ├── upload/
+│   │       ├── static/
+│   │       ├── best.pt
+│   │       ├── requirements.txt
+│   │       └── space_station_app_v3_easy/
+│   └── Final_package_model/
+│       └── best.pt
+│
+├── report/
+│   ├── app_report/
+│   └── app_video_demo/
+│
+├── template/
+│   └── index.html
+│
+└── yolov8/
+    └── yolo_param_train/
+        └── confusion_matrix.jpg
+```
+
+
 
 
 ##  Model Performance
