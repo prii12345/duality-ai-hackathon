@@ -8,7 +8,7 @@ This project was built for the Duality AI Hackathon, using synthetic data to tra
 
 Space stations pose tough visual environments with low lighting, occlusions, and tight spaces — making object detection difficult.
 
- Objective
+objective
 
 - Train a YOLOv8 model to detect:
   -  Toolbox  
@@ -22,7 +22,7 @@ Space stations pose tough visual environments with low lighting, occlusions, and
 
 - YOLOv8s used with 3-class synthetic dataset
 - 5 epochs, trained on CPU
-- Final mAP@0.5: **91.4%**
+- Final mAP@0.5: **91.8%**
 
 
 
@@ -32,29 +32,36 @@ Space stations pose tough visual environments with low lighting, occlusions, and
 A safety-check assistant that uses the trained model to verify presence of essential tools.
 EVA Guardian uses real-time object detection to verify the presence of critical tools (like fire extinguishers or oxygen tanks) before astronauts exit the station. It provides visual confirmation and alerts if any item is missing.
 
-##  Folder Structure
-prpject/
+##  Folder Structure (could not upload one folder because of size issues)
+main/
 ├── ENV_SETUP/
 │ └── install_packages.bat
 ├── train.py
 ├── predict.py
 ├── visualize.py
-├── yolo_params.yaml
+|__ yolo_params.yaml
+|__space_station_flask_app.zip
+        |__app use report
+        |__video link.txt(gdrive)
+        |__video file demo
 ├── classes.txt
+|__result.jpg
+|__confusion matrix.jpg
+|__best.pt
+|__screenshot of work when processed
+|__EVA Guardian ppt.pdf
 
 
----
 
 ##  Model Performance
 
 | Metric            | Value  |
-|-------------------|--------|
-| mAP@0.5           | 91.4%  |
+|                   |        |
+| mAP@0.5           | 91.8%  |
 | mAP@0.5:0.95      | 79.8%  |
 | Precision         | 96.0%  |
 | Recall            | 85.1%  |
 
----
 
 ## Submission Info
 
@@ -87,9 +94,9 @@ New synthetic data can be generated via Falcon → fine-tune model → re-deploy
  Team
 
 Team Name:Innovators
-Priyanka Yadav :
-kirti gupta:
-Darshita:
+Priyanka Yadav : priyanka941677@gmail.com ( ai engineering, documentation & presentation)
+kirti gupta : mail.kirtigupta12@gmail.com (bonus use case proposal)
+Darshita:darshita2591@gmail.com ( documentation)
 Institute:ipcw
 
 
