@@ -34,21 +34,29 @@ EVA Guardian uses real-time object detection to verify the presence of critical 
 
 ##  Folder Structure (could not upload one folder because of size issues)
 main/
-├── ENV_SETUP/
-│ └── install_packages.bat
-├── train.py
-├── predict.py
-├── visualize.py
-|__ yolo_params.yaml
+├── Final_packaged_model_folder
+             |__best.pt
+             |__classes.txt
+             |__confusion matrix.jpg
+             |__install_packages
+             |__predict.py
+             |__result.jpg
+             |__train
+             |__using_anaconda_to_train
+             |__visualize.py
+             |__yolo_params.yaml
 |__space_station_flask_app.zip
-        |__app use report
-        |__video link.txt(gdrive)
-        |__video file demo
-├── classes.txt
-|__result.jpg
-|__confusion matrix.jpg
-|__best.pt
-|__screenshot of work when processed
+        |__static
+             |__uploads 
+                   |__images
+        |__template
+             |__index
+             |__result
+        |__yolov8
+             |__best.pt
+        |__app
+        |__requirements 
+|__
 |__EVA Guardian ppt.pdf
 
 
@@ -56,7 +64,7 @@ main/
 ##  Model Performance
 
 | Metric            | Value  |
-|                   |        |
+| ------------------|------- |
 | mAP@0.5           | 91.8%  |
 | mAP@0.5:0.95      | 79.8%  |
 | Precision         | 96.0%  |
@@ -94,9 +102,13 @@ New synthetic data can be generated via Falcon → fine-tune model → re-deploy
  Team
 
 Team Name:Innovators
-Priyanka Yadav : priyanka941677@gmail.com ( ai engineering, documentation & presentation)
-kirti gupta : mail.kirtigupta12@gmail.com (bonus use case proposal)
-Darshita:darshita2591@gmail.com ( documentation)
+
+Priyanka Yadav : priyanka941677@gmail.com
+( ai engineering, documentation & presentation)
+kirti gupta : mail.kirtigupta12@gmail.com
+(bonus use case proposal)
+Darshita:darshita2591@gmail.com
+( documentation)
 Institute:ipcw
 
 
